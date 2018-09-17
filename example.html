@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>title</title>
+		<style>
+			body { margin: 0; font-family: sans-serif; }
+			code, pre, kbd { font-family: monospace; font-size: 100%; }
+			code, pre { color: #080; }
+			kbd { color: #fff; background-color: #040; display: inline-block; padding: 2px; margin: 0 2px; border-radius: 2px; }
+			blockquote { margin-left: 0; padding-left: 1em; border-left: 2px solid #999; }
+			.wrap { margin-left: auto; margin-right: auto; padding: 0 1em; max-width: 48em; }
+			h1, h2 { border-bottom: 1px solid #999; }
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<h1>Code</h1>
+			<p>This is just a minimalist HTML file, because it's useful sometimes. Press <kbd>Enter</kbd> to continue.</p>
+			<blockquote>
+				"Recursion is the breakfast of champions." — <a href="https://donsbot.wordpress.com/2008/05/06/write-haskell-as-fast-as-c-exploiting-strictness-laziness-and-recursion/">dons</a>
+			</blockquote>
+			<pre>ifconfig en0 | grep ether
+sudo ifconfig en1 ether 12:34:56:78:9a:bc</pre>
+			<h2>Steps to less minimalism</h2>
+			<ul>
+				<li><code>fish</code></li>
+				<li><code>ag</code></li>
+				<li><code>tmux</code></li>
+				<li><code>fasd</code></li>
+				<li><code>i3</code></li>
+				<li><code>fzf</code></li>
+				<li>Plugged: <code>curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim</code></li>
+			</ul>
+<pre>call plug#begin('~/.vim/plugged')
+Plug 'airblade/vim-gitgutter'
+Plug 'ervandew/supertab'
+Plug 'mileszs/ack.vim'
+Plug 'nanotech/jellybeans.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+" Plug 'junegunn/fzf'
+" Plug 'junegunn/fzf.vim'
+call plug#end()</pre>
+			<h2>Some naughty strings</h2>
+			<ul>
+				<li>undefined</li>
+				<li>"''''"'"</li>
+				<li>( ͡° ͜ʖ ͡°)</li>
+				<li>¯\_(ツ)_/¯</li>
+				<li>♪~ ᕕ(ᐛ)ᕗ</li>
+				<li>🐉🔥</li>
+				<li>✈✈✈ Galactic Trendsetters ✈✈✈</li>
+				<li>Ｔｈｅ ｑｕｉｃｋ ｂｒｏｗｎ ｆｏｘ ｊｕｍｐｓ ｏｖｅｒ ｔｈｅ ｌａｚｙ ｄｏｇ</li>
+				<li>Roses are [0;31mred[0m, violets are [0;34mblue. Hope you enjoy terminal hue</li>
+				<li><code>function img() { identify -format '&lt;img src="%f" width="%w" height="%h" /&gt;' $1 }</code></li>
+				<li><code>[t for t in (1).__class__.__bases__[-1].__subclasses__() if t.__name__ == 'file'][0]('/etc/passwd').read()</code></li>
+				<li>If you're reading this, you've been in a coma for almost 20 years now. We're trying a new technique. We don't know where this message will end up in your dream, but we hope it works. Please wake up, we miss you.</li>
+			</ul>
+		</div>
+	</body>
+</html>

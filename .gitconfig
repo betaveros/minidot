@@ -1,0 +1,7 @@
+[alias]
+	c = checkout
+	st = status
+	b = branch
+	staged = diff --staged
+	last = diff HEAD^ HEAD
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
