@@ -16,7 +16,7 @@
 	<body>
 		<div class="wrap">
 			<h1>Code</h1>
-			<p>This is just a minimalist HTML file, because it's useful sometimes. Press <kbd>Enter</kbd> to continue.</p>
+			<p>This file doubles as a minimalist HTML file that is useful sometimes, and more context-dependent setup instructions. Press <kbd>Enter</kbd> to continue.</p>
 			<blockquote>
 				"Recursion is the breakfast of champions." — <a href="https://donsbot.wordpress.com/2008/05/06/write-haskell-as-fast-as-c-exploiting-strictness-laziness-and-recursion/">dons</a>
 			</blockquote>
@@ -28,8 +28,18 @@ sudo ifconfig en1 ether 12:34:56:78:9a:bc</pre>
 				<li><code>ag</code></li>
 				<li><code>tmux</code></li>
 				<li><code>fasd</code></li>
-				<li><code>i3</code></li>
 				<li><code>fzf</code></li>
+				<li>linux: <code>i3</code>, <code>redshift</code>; otherwise f.lux</li>
+				<li>firefox: HTTPS Everywhere, uBlock Origin, Vimium:
+					<pre>map J scrollPageDown
+map K scrollPageUp
+map &lt;C-d&gt; scrollPageDown
+map &lt;C-u&gt; scrollPageUp
+map &lt; previousTab
+map , nextTab
+map d removeTab
+map u restoreTab</pre>
+				</li>
 				<li>Plugged: <code>curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim</code></li>
 			</ul>
 <pre>call plug#begin('~/.vim/plugged')
