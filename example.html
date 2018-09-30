@@ -24,11 +24,12 @@
 sudo ifconfig en1 ether 12:34:56:78:9a:bc</pre>
 			<h2>Steps to less minimalism</h2>
 			<ul>
-				<li><code>fish</code></li>
+				<li><code>fish</code> (run <code>fish_config</code>, choose the default colorscheme except make valid commands significantly brighter, and Vcs Informative)</li>
 				<li><code>ag</code></li>
 				<li><code>tmux</code></li>
 				<li><code>fasd</code></li>
 				<li><code>fzf</code></li>
+				<li>some form of LaTeX</li>
 				<li>linux: <code>i3</code>, <code>redshift</code>; otherwise f.lux</li>
 				<li>firefox: HTTPS Everywhere, uBlock Origin, Vimium:
 					<pre>map J scrollPageDown
@@ -40,22 +41,8 @@ map , nextTab
 map d removeTab
 map u restoreTab</pre>
 				</li>
-				<li>Plugged: <code>curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim</code></li>
+				<li>follow instructions in .vimrc to install Plugged and plugins</li>
 			</ul>
-<pre>call plug#begin('~/.vim/plugged')
-Plug 'airblade/vim-gitgutter'
-Plug 'ervandew/supertab'
-Plug 'mileszs/ack.vim'
-Plug 'nanotech/jellybeans.vim'
-Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/syntastic'
-Plug 'tpope/vim-fugitive'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
-" Plug 'junegunn/fzf'
-" Plug 'junegunn/fzf.vim'
-call plug#end()</pre>
 			<h2>Some naughty strings</h2>
 			<ul>
 				<li>undefined</li>
