@@ -1,5 +1,5 @@
+set dir=~/tmp bdir=~/tmp " NOTE: remember to mkdir ~/tmp
 set ru sc hls is ic scs ai ts=4 sw=4 sts=4 list lbr nu smd ls=2 so=1 cul
-set dir=~/tmp bdir=~/tmp
 set listchars=tab:»\ ,trail:␣,extends:▶,precedes:◀
 syntax enable
 filetype plugin indent on
@@ -30,4 +30,5 @@ digraph !# 8802 11 185 22 178 33 179 44 8308 55 8309 66 8310 77 8311 88 8312 99 
 " Plug 'vim-airline/vim-airline-themes'
 " " Plug 'junegunn/fzf'
 " " Plug 'junegunn/fzf.vim'
+" " map <leader>r :Files<CR>
 " call plug#end()
