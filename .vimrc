@@ -18,6 +18,9 @@ digraph !# 8802 11 185 22 178 33 179 44 8308 55 8309 66 8310 77 8311 88 8312 99 
 
 " " Plugins with less minimalism:
 " " curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" let g:SuperTabNoCompleteAfter = ['^', '\s', '-', ':', '\.']
+" let g:ackprg = 'ag --vimgrep --smart-case'
+" let g:ackhighlight = 1
 " call plug#begin('~/.vim/plugged')
 " Plug 'airblade/vim-gitgutter'
 " Plug 'ervandew/supertab'
