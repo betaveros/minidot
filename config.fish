@@ -45,3 +45,9 @@ alias mv='mv -i'
 # 		uncabalize
 # 	end
 # end
+
+set EDITOR vim
+function fish_user_key_bindings
+	# both default bindings (alt-e and alt-v) may be taken by i3
+	bind \co edit_command_buffer
+end
