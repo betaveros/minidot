@@ -6,3 +6,5 @@
 	last = diff HEAD^ HEAD
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 	push-please = "!git push --set-upstream origin $(git symbolic-ref --short HEAD)"
+[merge]
+	conflictstyle = diff3
