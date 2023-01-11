@@ -51,3 +51,15 @@ function fish_user_key_bindings
 	# both default bindings (alt-e and alt-v) may be taken by i3
 	bind \co edit_command_buffer
 end
+
+function add_to_path
+	for dir in $argv[-1..1] # in reverse, so it's the order you expect
+		if test -d $dir
+			set PATH $dir $PATH
+		end
+	end
+end
+
+function fnt
+	firefox -new-tab $argv
+end
